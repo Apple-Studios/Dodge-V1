@@ -13,7 +13,7 @@ namespace Dodge_V1
     public partial class frmDodge : Form
     {
         Graphics g; //declare a graphics object called g
-                    // declare space for an array of 7 objects called planet 
+        // declare space for an array of 7 objects called planet 
         Planet[] planet = new Planet[7];
         Random yspeed = new Random();
         Spaceship spaceship = new Spaceship();
